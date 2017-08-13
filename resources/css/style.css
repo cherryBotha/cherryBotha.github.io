@@ -1,0 +1,135 @@
+/*Universal Style Rules*/
+html {
+	font-size: 18px;
+}
+
+body {
+	background-color: maroon;
+	background-size: cover;
+	color: bisque;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.content {
+	padding-top: 10rem;
+}
+
+/*Header Section Style Rules*/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background-color: burlywood;
+	border-bottom: 2px AntiqueWhite solid;
+	margin-top: -0.90rem;
+	margin-left: -0.45rem;
+	width: 100%;
+	height: 5rem;
+}
+
+header img {
+	display: flex;
+	width: 4.90rem;
+	height: 100%;
+	padding: 10px;
+}
+
+/* Nav Section Style Rules*/	
+header nav {
+	display: flex;
+	align-items: center;
+}
+
+a {
+	color: bisque; 
+	text-decoration: none;
+}
+
+header nav a {
+	display: flex;
+	font-style: italic;
+	font-weight: bold;
+	padding: 1rem 1rem;
+}
+
+header nav a:hover {
+	font-size: 1.2rem;
+	background-color: brown;
+	color: navajowhite;
+	border-radius: 5px;
+	padding: 0.80rem 0.80rem;
+	margin: 0.20rem 0.20rem;
+}
+
+/*Welcome Section Style Rule*/
+.welcome {
+	background-image: url("background/ballon.jpeg");
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: teal;
+	text-align: center;
+	align-items: center;
+	margin-left: 22rem;
+	width: 70%;
+	height: 70%;
+}	
+
+.welcome h1 {
+	padding-top: 6.50rem;
+	margin-left: -23rem;
+}
+
+.welcome h1 span {
+	color: brown;
+}
+
+.welcome p {
+	font-size: 1.50rem;
+	margin-left: -24rem;
+}
+
+/* Icon Section Style Rules*/
+.icon {
+	display: inline-flex;
+	font-weight: bold;
+}
+
+.icon span {
+	display: flex;
+	justify-content: space-around;
+	background-color: burlywood;
+	color: darkslategray;
+	border-radius: 15px;
+	align-items: center;
+	margin-left: 8rem;
+	font-size: 1.30rem;
+	font-family: 'Indie Flower', cursive;
+	height: 8rem;
+	width: 8.90rem;
+}
+
+/*Footer Section Style Rules*/
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 2px burlywood solid;
+	color: darkslategray;
+	margin-top: 5rem;
+	font-weight: bold;
+	width: 100%;
+	height: 5rem;
+}
+
+footer img {
+	padding: 1rem .50rem;
+	width: 3rem;
+	height: 50%;
+}
+
+footer span {
+	padding: 1rem .50rem;
+}
+
+
