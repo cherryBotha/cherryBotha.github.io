@@ -109,6 +109,14 @@ header nav a:hover {
 	width: 8.90rem;
 }
 
+.icon a:hover {
+	background-color: brown;
+	color: navajowhite;
+	border-radius: 5px;
+	padding: 0.80rem 0.80rem;
+	margin: 0.20rem 0.20rem;
+}
+
 /*Footer Section Style Rules*/
 footer {
 	display: flex;
