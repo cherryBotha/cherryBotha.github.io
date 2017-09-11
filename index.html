@@ -1,51 +1,67 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 	<link href="resources/css/style.css" type="text/css" rel="stylesheet">
+	<link href="Logo_black.png" type="image/x-icon" rel="icon">
 	<title> AB | Home</title>
 </head>
 <body>
-<!-- Head Section -->
-<header>
-	<img src="resources/logo/Logo_black.png" alt="AB | Logo">
-	<!-- Nav Section -->
-	<nav>
-		<a href="index" alt="home">Home</a>
-		<a href="about" alt="about">About</a><!-- Content Still to be added
-		<a href="gallery" alt="gallery">Gallery</a>
-		<a href="projects" alt="projects">Projects</a>
-		<a href="conect" alt="connect">Connect</a> -->
-	</nav>
-</header>
-<!-- Contet Section -->
-<div class="content">
-	<div class="welcome" alt="welcome page">
-		<h1>WELCOME TO<br><span> AB | Personal Page</span></h1>
-		<p>TAKE A PEEK AROUND</p>
-	</div>
-	<!-- Icon Section-->
-	<div class="icon">
-		<div class="about">
-			<span><a href="about" alt="about">About Me</a></span>
-		</div> <!-- Still to be added
-		<div class="gallery">
-			<span>Gallery</span>
+<!--head section-->
+<nav class="navbar-fixed-top">
+	<!--nav-->
+    <div class="container-fluid">
+		<a href="index">Home</a>
+		<a href="about">About</a>
+		<!--logo-->
+        <img class="logo navbar-right" src="Logo_black.png">
+    </div>
+</nav>
+<!--centent section-->
+<div class="content container-fluid">
+	<!--slide section-->
+	<div class="carousel col-md-12 col-s-12">
+		<!--take a welcome-->
+		<div class="welcome">
+			<div class="container-fluid text">
+				<h2>WELCOME TO</h2>
+				<h1>AB | PERSONAL</h1>
+				<h2>TAKE A PEEK AROUND</h2>
+			</div>
 		</div>
-		<div class="projects">
-			<span>Projects</span>
+		<div class="guitar">
+			<div class="container-fluid text">
+				<h1>PLAY GUITAR...</h1>
+				<h2>CHECK OUT SOME OF<br>MY GUITAR TUTORIALS</h2>
+				<a href="guitar" class="btn btn-warning btn-lg">Go There</a>
+			</div>
+		</div>
+		<div class="gallery">
+			<div class="container-fluid text">
+				<h1>LIKE PHOTOS...</h1>
+				<h2>CHECK OUT MY GALLERY</h2>
+				<a href="gallery" class="btn btn-warning btn-lg">Go There</a>
+			</div>
 		</div>
 		<div class="connect">
-			<span>Connect Socially</span>
-		</div> -->
+			<div class="container-fluid text">
+				<h1>CONNECT WITH ME ON SOCIAL MEDIA</h1>
+				<a href="#" class="btn btn-success btn-lg">Connect</a>
+			</div>
+		</div>
 	</div>
 </div>
-<!-- footer Section -->
 <footer>
-	<img src="resources/logo/Logo_black.png" alt="AB | Logo">
-	<span>AB | Personal Page</span>
+	<span>AB | Personal Resume</span>
 </footer>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="resources/js/main.js"></script>
 </body>
 </html>

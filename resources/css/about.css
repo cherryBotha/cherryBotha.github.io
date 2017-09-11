@@ -1,80 +1,73 @@
-/*Universal Styles Rules*/
+/*Universal Style Rules*/
 html {
 	font-size: 18px;
 }
 
 body {
-	background-color: maroon;
+	background-color: lightcyan;
 	background-size: cover;
-	color: bisque;
+	color: teal;
 	font-family: "Josefin Sans", sans-serif;
 }
 
 .content {
 	padding-top: 5rem;
-}	
+	margin-bottom: 10rem;
+}
 
-/*Header Style Rules*/
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: fixed;
-	background-color: burlywood;
-	border-bottom: 2px AntiqueWhite solid;
-	margin-top: -0.90rem;
-	margin-left: -0.45rem;
+/*Head Nav Section Style Rules*/
+nav {
 	width: 100%;
-	height: 5rem;
+	height: 4rem;
+	background-color: mintcream;
+	border-bottom: 3px solid antiquewhite;	
 }
 
-header img {
-	display: flex;
-	width: 4.90rem;
-	height: 100%;
-	padding: 10px;
-}
-
-/*Nav Section Of The Header*/
-header nav {
-	display: flex;	
-}
-
- header nav a {
-	font-style: italic;
-	font-weight: bold;
-	padding: 1rem 1rem;
-}
-
-header nav a {
-	color: bisque; 
+/*Nav Section Style Rules*/
+nav a{
+	display: inline-flex;
+	align-items: center;
 	text-decoration: none;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: teal;
+	font-size: 1rem;
+	margin-top: 1.4rem;
+	margin-right: 1.5rem;
 }
 
-header nav a:hover {
-	font-size: 1.2rem;
-	background-color: brown;
-	color: navajowhite;
-	border-radius: 5px;
-	padding: 0.80rem 0.80rem;
-	margin: 0.20rem 0.20rem;
+/*Nav Hover Style Rules*/
+nav a:hover {
+	font-size: 1rem;
+	text-decoration: none;
+	padding: .40rem .40rem;
+	background-color: antiquewhite;
+	color: teal;
+	border-radius: 4px;
+}
+
+/*Logo Style Rules*/
+nav .logo {
+	margin-top: -1rem;
+	width: 5rem;
 }
 
 /*About Section Style Rules*/
 .about .box {
-	display: inline-flex;
+	display: flex;
 }
 
 .about h1 {
 	font-size: 1.50rem;
 	font-weight: bold;
-	margin-left: 30rem;
 	margin-bottom: -1rem;
 	margin-top: 2.50rem;
+	margin-left: 30rem;
+	color: teal;
 	background-color: burlywood;
 	border-radius: 5px;
-	padding: 1.2rem 6rem;
-	width: 5rem;
+	padding: 1rem 3rem;
+	width: 10rem;
 }
 
 .about img {
@@ -100,33 +93,16 @@ header nav a:hover {
 	font-weight: bold;
 }	
 
-em, li{
-	color: navajoWhite;
-}
-
 /*Footer Section Style Rules*/
 footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-top: 2px burlywood solid;
-	color: darkslategray;
-	margin-top: 5rem;
-	font-weight: bold;
-	width: 100%;
-	height: 5rem;
+	width:100%;
+	height: 4rem;
+	color: teal;
+	font-style: italic;
+	border-top: 1px solid teal;
+	text-align: center;
+	padding-top: 1.5rem;
 }
-
-footer img {
-	padding: 1rem .50rem;
-	width: 3rem;
-	height: 50%;
-}
-
-footer span {
-	padding: 1rem .50rem;
-}
-
 
 
 
