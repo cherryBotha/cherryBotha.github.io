@@ -33,6 +33,7 @@ nav a{
 	color: teal;
 	font-size: 1rem;
 	margin-top: 1.4rem;
+	margin-left: 1rem;
 	margin-right: 1rem;
 	opacity: 0.6;
 }
@@ -60,7 +61,12 @@ nav .logo {
 	display: flex;
 }
 
+#yt {
+	color: mediumslateblue;
+}
+
 .about h1 {
+	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: -1rem;
@@ -94,6 +100,27 @@ nav .logo {
 }	
 
 /*Footer Section Style Rules*/
+i{
+	margin-top: 1rem;
+	color: dimgray;
+	padding: 1rem 1rem;
+	margin-left: 1rem;
+	opacity: 0.6;
+	transition: transform 500ms, opacity 500ms;
+	
+ }
+ 
+ i:hover {
+	opacity: 1;
+	color: dimgray;	
+	transition-property: transform, opacity;
+	transition-duration: 500ms, 500ms;
+	transform: transition(10);
+	transform: scale(1.3);
+ }
+
+
+
 footer {
 	width:100%;
 	height: 5rem;
@@ -104,7 +131,6 @@ footer {
 	padding-top: 1.5rem;
 	padding-bottom: 1rem;
 }
-
 
 
 

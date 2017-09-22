@@ -89,10 +89,27 @@ nav .logo {
 /*Footer Section Style Rules*/
 footer {
 	width:100%;
-	height: 4rem;
 	color: teal;
 	font-style: italic;
 	border-top: 1px solid teal;
 	text-align: center;
 	padding-top: 1.5rem;
 }
+
+i{
+	margin-top: 1rem;
+	color: dimgray;
+	padding: 1rem 1rem;
+	margin-left: 1rem;
+	opacity: 0.6;
+	transition: transform 500ms, opacity 500ms;
+	
+ }
+ 
+ i:hover {
+	opacity: 1;
+	transition-property: transform, opacity;
+	transition-duration: 500ms, 500ms;
+	transform: transition(10);
+	transform: scale(1.3);
+ }

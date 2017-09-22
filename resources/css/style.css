@@ -64,18 +64,18 @@ nav .logo {
 }
 
 .text {
-	margin-top: 7rem;
+	margin-top: 10rem;
 }
 
 /*Welcome Section Style Rules*/
 .welcome {
-	color: yellow;
-	height: 26rem;
+	color: aquamarine;
+	height: 30rem;
 	background-position: center;
 	text-align: center;	
-	background-image: url("background/paint.jpg");
+	background-image: url("background/55-3.jpg");
 	background-repeat: no-repeat;
-	background-size: 45rem 25rem;
+	background-size: 55rem 35rem;
 }
 
 .welcome h1 {
@@ -90,12 +90,13 @@ h2 {
 
 /*Guitar section*/
 .guitar {
-	height: 26rem;
+	height: 30rem;
+	text-shadow: 2px 2px 2px white;
 	text-align: center;
 	background-position: center;	
 	background-image: url("background/cherryguitar.jpg");
 	background-repeat: no-repeat;
-	background-size: 45rem 25rem;
+	background-size: 55rem 35rem;
 }
 
 .guitar h2 {
@@ -104,12 +105,12 @@ h2 {
 
 /*Gallery Sectio Style Rules*/
 .gallery {
-	height: 26rem;
+	height: 30rem;
 	text-align: center;
 	background-position: center;	
 	background-image: url("background/camara.jpg");
 	background-repeat: no-repeat;
-	background-size: 45rem 25rem;
+	background-size: 55rem 35rem;
 }
 
 .gallery h2 {
@@ -118,13 +119,13 @@ h2 {
 
 /*Connect Section Style Rules*/
 .connect {
-	height: 26rem;
+	height: 30rem;
 	text-shadow: 2px 2px 2px navy;
 	text-align: center;
 	background-position: center;	
-	background-image: url("background/powder_pic1.jpg");
+	background-image: url("background/5102.jpg");
 	background-repeat: no-repeat;
-	background-size: 45rem 25rem;
+	background-size: 55rem 35rem;
 }
 
 .connect h1 {
@@ -133,6 +134,7 @@ h2 {
 
 /*Font Awesome Style Rules*/
 i{
+	margin-top: 4rem;
 	color: dimgray;
 	padding: 2rem 2rem;
 	margin-left: 7rem;
