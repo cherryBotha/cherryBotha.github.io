@@ -77,11 +77,25 @@ nav .logo {
 	margin: auto;
 }
 
+.box p {
+	text-align: center;
+	margin-top: -1.5rem;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
 .box1 img{
 	padding: 2rem;
-	width: 55%;
+	width: 35%;
 	display: block;
 	margin: auto;
+}
+
+.box1 p {
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5rem;
 }
 	
 /*FooterSectionStyleRules*/

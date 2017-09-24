@@ -66,14 +66,17 @@ nav .logo {
 	color: teal;
 }
 
-.links a {
+.links a li {
+	list-style: square;
+	text-decoration: underline;
 	font-size: 1.3rem;
 	color: teal;
-	text-decoration: none;
+
 }
 
 .links a:hover {
-	text-decoration: none;
+	list-style: square;
+	text-decoration: underline;	
 	color: teal;
 	text-shadow: 1px 1px 1px dimgray;
 }
