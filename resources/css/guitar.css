@@ -67,19 +67,17 @@ nav .logo {
 }
 
 .links a li {
+	font-size: 1.3rem;
+	color: teal;
+}
+
+.links a li:hover {
 	list-style: square;
 	text-decoration: underline;
 	font-size: 1.3rem;
 	color: teal;
-
 }
 
-.links a:hover {
-	list-style: square;
-	text-decoration: underline;	
-	color: teal;
-	text-shadow: 1px 1px 1px dimgray;
-}
 
 .links p {
 	text-align: center;
