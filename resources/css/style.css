@@ -103,24 +103,27 @@ h2 {
 	margin-bottom: 2rem;
 }
 
-/*Gallery Sectio Style Rules*/
-.gallery {
+/*Blog Sectio Style Rules*/
+.blog {
+	text-shadow: 3px 1px 2px white;
+	color: navy;
 	height: 30rem;
 	text-align: center;
 	background-position: center;	
-	background-image: url("background/camara.jpg");
+	background-image: url("background/jumbotron-flowers.jpg");
 	background-repeat: no-repeat;
 	background-size: 55rem 35rem;
 }
 
-.gallery h2 {
+.blog h2 {
 	margin-bottom: 2rem;
 }
 
-/*Connect Section Style Rules*/
-.connect {
+/*Projects Sectio Style Rules*/
+.projects {
+	text-shadow: 3px 1px 2px white;
+	color: navy;
 	height: 30rem;
-	text-shadow: 2px 2px 2px navy;
 	text-align: center;
 	background-position: center;	
 	background-image: url("background/5102.jpg");
@@ -128,16 +131,20 @@ h2 {
 	background-size: 55rem 35rem;
 }
 
-.connect h1 {
+.projects h2 {
 	margin-bottom: 2rem;
 }
 
+
 /*Font Awesome Style Rules*/
+.icons {
+	text-align: center;
+}
+
 i{
 	margin-top: 4rem;
 	color: dimgray;
 	padding: 2rem 2rem;
-	margin-left: 7rem;
 	opacity: 0.6;
 	transition: transform 500ms, opacity 500ms;
 	
