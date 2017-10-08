@@ -88,6 +88,18 @@ h2 {
 	font-weight: bold;
 }
 
+/*about style rules*/
+.about {
+	color: brown;
+	height: 30rem;
+	background-position: center;
+	text-shadow: 2px 2px 2px white;
+	text-align: center;	
+	background-image: url("background/IMG_4952.jpg");
+	background-repeat: no-repeat;
+	background-size: 37rem 37rem;
+}
+
 /*Guitar section*/
 .guitar {
 	height: 30rem;
