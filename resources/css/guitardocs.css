@@ -5,7 +5,7 @@ html {
 
 body {
 	color: teal;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 .content {
 	margin-bottom: 5rem;
@@ -29,7 +29,6 @@ nav a{
 	align-items: center;
 	text-decoration: none;
 	font-weight: bold;
-	font-family: Helvetica;
 	color: teal;
 	font-size: 1rem;
 	margin-top: 1.2rem;
