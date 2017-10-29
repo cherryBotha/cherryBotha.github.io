@@ -7,7 +7,7 @@ body {
 	background-color: white;
 	background-size: cover;
 	color: teal;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .content {
@@ -29,7 +29,6 @@ nav a{
 	align-items: center;
 	text-decoration: none;
 	font-weight: bold;
-	font-family: Helvetica;
 	color: teal;
 	font-size: 1rem;
 	margin-top: 1.4rem;
@@ -95,7 +94,7 @@ nav .logo {
 }
 
 .abouts span {
-	font-size: 1.20rem;
+	font-size: 1.30rem;
 	font-weight: bold;
 }	
 

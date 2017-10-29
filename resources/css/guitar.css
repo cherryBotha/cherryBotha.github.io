@@ -7,7 +7,7 @@ body {
 	background-color: white;
 	background-size: cover;
 	color: teal;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .content {
@@ -30,7 +30,6 @@ nav a{
 	align-items: center;
 	text-decoration: none;
 	font-weight: bold;
-	font-family: Helvetica;
 	color: teal;
 	font-size: 1rem;
 	margin-top: 1.2rem;
@@ -58,7 +57,6 @@ nav .logo {
 }
 
 .guitar h1 {
-	font-size: 2rem;
 	font-weight: bold;
 	margin-top: 2.50rem;
 	margin-left: 30rem;
@@ -67,15 +65,14 @@ nav .logo {
 }
 
 .links a li {
-	font-size: 1.3rem;
-	color: teal;
+	font-size: 1rem;
+	color: dimgray;
 }
 
 .links a li:hover {
 	list-style: square;
 	text-decoration: underline;
-	font-size: 1.3rem;
-	color: teal;
+	font-size: 1rem;
 }
 
 
@@ -83,7 +80,7 @@ nav .logo {
 	text-align: center;
 	padding-left: 2rem;
 	padding-right: 2rem;
-	font-size: 1.4rem;
+	font-size: 1.1rem;
 	padding-bottom: 2rem;
 }
 
