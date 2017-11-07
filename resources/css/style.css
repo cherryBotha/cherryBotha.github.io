@@ -55,6 +55,8 @@ nav .logo {
 	width: 5rem;
 }
 
+/*drop down*/
+
 /*Slide Section Style Rules*/
 .carousel {
 	width: 100%;
@@ -92,7 +94,7 @@ h2 {
 	color: brown;
 	height: 30rem;
 	background-position: center;
-	text-shadow: 2px 2px 2px white;
+	text-shadow: 2px 2px 2px whitesmoke;
 	text-align: center;	
 	background-image: url("background/IMG_4952.jpg");
 	background-repeat: no-repeat;
@@ -181,3 +183,4 @@ footer {
 	padding-bottom: 1rem;
 }
 
+/*media querys*/

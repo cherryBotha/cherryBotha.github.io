@@ -66,10 +66,24 @@ nav .logo {
 	width: 5rem;
 }
 
+.projects h1 {
+	background-image: url("background/5102.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 45rem 22rem;
+	height: 20rem;
+	font-weight: bold;
+	font-size: 3rem;
+	padding-top: 8rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	text-shadow: 3px 1px 2px white;
+	color: navy;
+}
+
 /*Projects Style Rules*/
 .khan span {
 	font-size: 1rem;
-
 }
 
 .khan {
@@ -77,7 +91,7 @@ nav .logo {
 }
 
 .khan img {
-	width: 95%;
+	width: 95.5%;
 	padding: .50rem;
 }
 
