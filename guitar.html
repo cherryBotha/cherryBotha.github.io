@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
@@ -10,17 +11,26 @@
 </head>
 <body>
 <!--head section-->
-<nav class="navbar-fixed-top">
-	<!--nav-->
+<nav class="navbar-fixed-top hidden-sm hidden-xs">
     <div class="container-fluid">
 		<a href="index">Home</a>
 		<a href="about">About</a>
 		<a href="guitar">Guitar</a>
 		<a href="projects">Projects</a>
-		<!--logo-->
         <img class="logo navbar-right" src="Logo_black.png">
     </div>
 </nav>
+<div class="dropdown navbar-fixed-top hidden-lg hidden-md">
+    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+    <span><i class="fa fa-navicon fa-2x"></i></span></button>
+    <ul class="dropdown-menu">
+		<li><a href="index">Home</a></li>
+		<li><a href="about">About</a></li>
+		<li><a href="guitar">Guitar</a></li>
+		<li><a href="projects">Projects</a></li>
+    </ul>
+	<img class="logo" src="Logo_black.png">
+</div>
 <!--content section-->
 <div class="container-fluid content">
 	<!--guitar section-->
@@ -45,5 +55,7 @@
 	<a href="https://www.youtube.com/channel/UCE8lKLLpK0nQK3OaavzUBIQ" target="_blank" alt="youtube account"><i class="fa fa-youtube-play fa-lg"></i></a>
 	
 </footer>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

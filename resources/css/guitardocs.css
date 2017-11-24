@@ -8,6 +8,8 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 .content {
+	width: 100%;
+	margin-top: 5rem;
 	margin-bottom: 5rem;
 }
 
@@ -53,8 +55,41 @@ nav .logo {
 	margin-top: -1rem;
 	margin-right: .10rem;
 	width: 5rem;
+}
+
+/*drop down*/
+.dropdown {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 4.5rem;
+	background-color: mintcream;
+	border-bottom: 2px solid antiquewhite;	
+}
+
+.dropdown .btn {
+	margin-top: -1.70rem;
+	background-color: mintcream;
+}
+
+.dropdown i {
+	height: 3rem;
+	width: 2rem;
+	text-align: center;
+	margin-left: -.20rem;
+}
+
+.dropdown-menu li a{
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*Logo dropdown Style Rules*/
+.dropdown .logo {
+	margin-top: -1rem;
+	margin-right: .10rem;
+	width: 5rem;
 }	
-	
+
 /*NotesStyleRules*/	
 .intro {
 	text-align: center;
@@ -117,7 +152,7 @@ i{
 	
  }
  
- i:hover {
+i:hover {
 	opacity: 1;
 	transition-property: transform, opacity;
 	transition-duration: 500ms, 500ms;

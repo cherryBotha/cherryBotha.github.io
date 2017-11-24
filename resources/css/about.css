@@ -55,8 +55,40 @@ nav .logo {
 	width: 5rem;
 }
 
+/*drop down*/
+.dropdown {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 4.5rem;
+	background-color: mintcream;
+	border-bottom: 2px solid antiquewhite;	
+}
+
+.dropdown .btn {
+	margin-top: -1.70rem;
+	background-color: mintcream;
+}
+
+.dropdown i {
+	height: 3rem;
+	width: 2rem;
+	text-align: center;
+	margin-left: -.20rem;
+}
+
+.dropdown-menu li a{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown .logo {
+	margin-top: -1rem;
+	margin-right: .10rem;
+	width: 5rem;
+}
+
 /*About Section Style Rules*/
-.about .box {
+.about .box{
 	display: flex;
 }
 
@@ -64,35 +96,43 @@ nav .logo {
 	color: mediumslateblue;
 }
 
-.about h1 {
+.about_mobile h1, .about h1 {
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
-	margin-bottom: -1rem;
-	margin-top: 2.50rem;
-	margin-left: 30rem;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+	padding: .20rem .20rem;
 	color: teal;
-	width: 10rem;
+	width: 100%;
+}
+
+.about_mobile img, .about img {
+	
+	border: 4px burlywood solid;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 17rem;
+	width: 16rem;;
 }
 
 .about img {
-	border: 4px burlywood solid;
-	border-radius: 10px;
-	margin: 2rem 2rem;
-	height: 17rem;
+	margin-top: 2.5rem;
 }
 
-.abouts {
+.about_mobile .abouts, .about .abouts {
 	padding: 0.50rem 0.50rem;
 	margin-top: 2.2rem;
-	width: 73%;
+	width: 100%;
 }
 
-.abouts p, li {
+.about_mobile, .abouts p, li {
 	font-size: 1rem;
 }
 
-.abouts span {
+.about_mobile span, .abouts span {
 	font-size: 1.30rem;
 	font-weight: bold;
 }	
@@ -129,8 +169,4 @@ footer {
 	padding-top: 1.5rem;
 	padding-bottom: 1rem;
 }
-
-
-
-
 
