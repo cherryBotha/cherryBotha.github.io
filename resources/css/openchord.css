@@ -16,6 +16,19 @@ body {
 
 h1 {
 	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+ul li {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 1.7rem;
+}
+
+p {
+	text-align: center;
+	font-size: 1rem;
 }
 
 /*HeadNavSectionStyleRules*/
@@ -26,7 +39,6 @@ nav {
 	border-bottom: 1px solid antiquewhite;	
 }
 
-/*NavSectionStyleRules*/
 nav a{
 	display: inline-flex;
 	align-items: center;
@@ -40,7 +52,6 @@ nav a{
 	opacity: 0.6;
 }
 
-/*NavHoverStyleRules*/
 nav a:hover {
 	opacity: 1;
 	transition-property: transform, opacity;
@@ -51,14 +62,13 @@ nav a:hover {
 	text-decoration: none;
 }
 
-/*LogoStyleRules*/
 nav .logo {
 	margin-top: -1rem;
 	margin-right: .10rem;
 	width: 5rem;
 }
 
-/*drop down*/
+/*DropDownMenu*/
 .dropdown {
 	display: inline-flex;
 	justify-content: space-between;
@@ -84,55 +94,23 @@ nav .logo {
 	font-family: 'Quicksand', sans-serif;
 }
 
-/*Logo dropdown Style Rules*/
 .dropdown .logo {
 	margin-top: -1rem;
 	margin-right: .10rem;
 	width: 5rem;
 }	
 
-/*NotesStyleRules*/	
-.intro {
-	text-align: center;
-}
-
-.names {
-	font-size: 1.2rem;
-}
-
-.names span{
-	color: Coral;
-}
-	
-/*NotationStyleRules*/
-.notation .box img {
-	padding: 2rem;
-	width: 55%;
+/*AMajorChord*/
+.amajor img {
+	padding: 1rem 1rem;
+	width: 16rem;
 	display: block;
 	margin: auto;
 }
 
-.box p {
-	text-align: center;
-	margin-top: -1.5rem;
-	font-weight: bold;
-	font-size: 1rem;
-}
 
-.box1 img{
-	padding: 2rem;
-	width: 35%;
-	display: block;
-	margin: auto;
-}
 
-.box1 p {
-	font-size: 1rem;
-	font-weight: bold;
-	text-align: center;
-	margin-top: -1.5rem;
-}
-	
+
 /*FooterSectionStyleRules*/
 footer {
 	width:100%;
