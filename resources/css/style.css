@@ -91,8 +91,8 @@ nav .logo {
 /*Slide Section Style Rules*/
 .carousel {
 	width: 100%;
-	color: teal;
-	text-shadow: 2px 2px 2px dimgray;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px gray;
 }
 
 h2, h1 {
@@ -110,7 +110,6 @@ h2, h1 {
 
 /*Welcome Section Style Rules*/
 .welcome, .welcome_mobile{
-	color: aquamarine;
 	height: 30rem;
 	background-position: center;	
 	background-image: url("background/55-3 - Copy.jpg");
@@ -129,17 +128,15 @@ h2, h1 {
 }
 
 .welcome h1, .welcome_mobile h1 {
-	color: teal;
+	color: white;
 	font-weight: bold;
-	text-shadow: 2px 2px 2px white;
+	text-shadow: 2px 2px 2px black;
 }
 
 /*about style rules*/
 .about, .about_mobile {
-	color: brown;
 	height: 30rem;
 	background-position: center;
-	text-shadow: 2px 2px 2px whitesmoke;
 	background-image: url("background/camara.jpg");
 	background-repeat: no-repeat;
 	background-size: 50rem 30rem;
@@ -153,7 +150,6 @@ h2, h1 {
 /*Guitar section*/
 .guitar, .guitar_mobile{
 	height: 30rem;
-	text-shadow: 2px 2px 2px white;
 	background-position: center;	
 	background-image: url("background/cherryguitar.jpg");
 	background-repeat: no-repeat;
@@ -171,8 +167,6 @@ h2, h1 {
 
 /*Blog Sectio Style Rules*/
 .blog, .blog_mobile {
-	text-shadow: 3px 1px 2px white;
-	color: navy;
 	height: 30rem;
 	background-position: center;	
 	background-image: url("background/jumbotron-flowers.jpg");
@@ -191,8 +185,6 @@ h2, h1 {
 
 /*Projects Sectio Style Rules*/
 .projects, .projects_mobile {
-	text-shadow: 3px 1px 2px white;
-	color: navy;
 	height: 30rem;
 	background-position: center;	
 	background-image: url("background/5102.jpg");
