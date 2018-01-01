@@ -92,7 +92,7 @@ nav .logo {
 .carousel {
 	width: 100%;
 	color: whitesmoke;
-	text-shadow: 2px 2px 2px gray;
+	text-shadow: 2px 2px 2px darkslategray;
 }
 
 h2, h1 {
@@ -199,6 +199,11 @@ h2, h1 {
 
 .projects h2 {
 	margin-bottom: 2rem;
+}
+
+/*logoend*/
+.logo_white {
+	position: static;
 }
 
 /*Font Awesome Style Rules*/
