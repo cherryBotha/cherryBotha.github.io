@@ -108,8 +108,15 @@ nav .logo {
 	margin: auto;
 }
 
+.select {
+	text-align: center;	
+}
 
-
+.select li{
+	display: inline;
+	padding: .7rem .7rem;
+	font-size: .8rem;
+}
 
 /*FooterSectionStyleRules*/
 footer {
