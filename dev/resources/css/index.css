@@ -1,0 +1,76 @@
+/*---------Universal_Styles----------*/
+body {
+	margin: auto;
+	width: 100%;
+	font: 16px Raleway, "Sans-Serif";	
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+}
+
+a {
+	color: #d97e00;
+	text-shadow: 1px 1px 2px dimgray;
+}
+
+a:hover, .menu li a:hover {
+	color: #d99b28;
+	transition: 1s;
+}
+
+main {
+	margin-top: 7em;
+}
+
+/*---------Universal_Styles_End----------*/
+
+/*---------Menu_Styles--------------*/
+.menu {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 3px solid cadetblue;
+	background: white;
+	padding: 5px 5px;
+	width: 100%;
+	
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: gray;
+	font: 1.5em Raleway,"Sans-Serif";
+	padding: 10px 10px;	
+	font-weight: bold;
+}
+
+.menu li.logo img{
+	width: 10em;
+	padding:0 30px;
+}
+/*---------Menu_Styles_End--------------*/
+
+/*---------Main_Header_styles-----------*/
+.main-header {
+	width: 100%;
+	background: center no-repeat url("../pictures/sun-flower.jpg"); 
+	text-align: center;
+	opacity: .8;
+	font-weight: bold;
+	padding: 10em 0;
+	color: black;
+}
+
+.main-header p {
+	font-size: 1.3em;
+}
+/*---------Main_Header_styles_End-----------*/
+
+
+
+
