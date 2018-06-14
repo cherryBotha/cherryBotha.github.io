@@ -1,6 +1,7 @@
 /*Universal_styles*/
 body{
 	font-family: Open Sans Condensed;
+	margin: 0 auto;
 }
 
 p {
@@ -16,33 +17,56 @@ h1 {
 }
 
 /*Main_container_styles*/
-
-main {
-	border-right: 3px solid yellow;
-	border-bottom: 3px solid yellow;
-	margin-top: -0.5em;
+#head {
+	position: fixed;
+	background: white;
+	width: 100%;
+	padding: 1em 1em;
+	border-bottom: 2px solid darkgoldenrod;
+	margin-top: -8em;
+	z-index: 1;
+}
+#head #logo{
+	width: 13em;
+	padding-left: 1.5em 1em 1em 1em;
 }
 
-#logo_container {
-	float: left;  
+#head i {
+	font-size: 1.7em;
+	float: right;
+	padding: 1.5em 1.2em;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
 }
 
-#logo_container i {
-	margin: 1em 1em;
+#head i:hover {
+	transition-duration: 400ms;
+	color: rgb(61,60,60);
+	transform: scale(1.3);
 }
 
-#logo_container img {
+#sub-header {
+	width: 100%;
+	margin-top: 8em;
+	margin-bottom: 16em;
+}
+
+#sub-header article {
+	width: 100%;
+	position: relative;
+}
+
+#sub-header img {
+	width: 100%;
+	border-bottom: 2px solid darkgoldenrod;
+}
+
+#sub-header article #welcome-text {
 	position: absolute;
-	top: 100px;
-    left: 90px;
-}
-
-#welcome_container {
-	width: 40%;
-    float: right;
-    background: dimgray;
-    padding: 5em 5em;
-    color: white;
-	border-radius: 2px;
-	box-shadow: -2px -2px 2px lightgray;
+	bottom: 30%;
+    left: 34%;
+	background: rgba(0,0,0,.75);
+	padding: 2em 2em;
+	color: white;
+	box-shadow :2px 2px 3px black;
 }
