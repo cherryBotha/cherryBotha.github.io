@@ -1,0 +1,205 @@
+/*Universal_Styles*/
+    body {
+        font-family: 'Cabin', sans-serif;
+        margin: auto;
+    }
+
+    h1, h2, h3 {
+       font-family: 'Caveat', cursive; 
+    }
+    
+    h1 {
+     font-size: 3em;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+/*Header_Styles*/
+    header {
+        z-index: 10;
+        position: fixed;
+        width: 100%;
+        background: white;
+        border-bottom: 1px solid lightgray;
+        box-shadow: gray 0px 1px 2px;
+    }
+
+    #logo {
+        padding-top: 1em;
+        padding-left: 1em;
+        float: left;
+        width: 11em;
+    }
+
+    #logo:hover {
+        transform: scale(1.1);
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+
+    #menu {
+        float: right;
+        font-family: Caveat;
+        font-size: 1.6em;
+    }
+
+    #menu-btn {
+        box-shadow: grey 1px 1px 2px;
+        margin-right: .7em;
+        background: gainsboro;
+        width: 3.7em;
+    }
+
+  #menu-btn:focus {
+        background: lightgray;
+    }
+
+   #menu-btn:hover {
+       background: lightgray; 
+        transition-duration: 200ms;
+        transition-timing-function: ease-in-out;
+    }
+
+    #menu span {
+        position: absolute;
+        top: 48px;
+        right: 50px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 9px solid black;
+    }
+
+
+    #menu-btn:focus ~ #menu-content {
+        max-height: 400px;
+        transition: max-height 0.4s ease-in;
+    }
+
+    #menu #menu-content a, #menu-btn {
+        display: grid;
+        align-self: center;
+        color: black;
+        background: gainsboro;
+        border-radius: 3px;
+        text-decoration: none;
+        font-weight: bold;
+        padding: .4em 1em .4em .9em;
+    }
+
+    #menu-content {
+        position: absolute;
+        top: 78px;
+        right: 15px;
+        overflow: hidden; 
+        max-height: 0;
+    }
+
+    #menu #menu-content a:hover {
+        background: lightgray;
+        transition-duration: 200ms;
+        transition-timing-function: ease-in-out;
+        text-decoration: underline;
+    }
+
+    #menu li {
+        list-style-type: none;
+    }
+
+
+/*Main_Styles*/
+    main {
+        
+        padding-top: 6.9em;
+    }
+
+    #welcome {
+        width: 100%;
+    }
+
+    #welcome #welcome-content {
+        display: grid;
+        justify-content: center;
+        background-image: url("resources/pictures/background/dandelion-3.png");
+        width: 100%;
+        height: 21.8em;
+    }
+
+    #welcome #welcome-content #welcome-sub {
+        z-index: 1;
+        display: grid;
+        align-self: center;
+        text-align: center;
+        background: gainsboro;
+        opacity: .8;
+        width: 100%;
+        color: black;
+        padding: 1.5em 1em;
+        box-shadow: gray 1px 1px 2px, 
+                    gray -1px -1px 2px;
+        text-shadow: dimgray 1px 1px 1px;
+        border-radius: 3px;
+    }
+
+    #welcome #welcome-content #welcome-sub p a {
+        text-decoration: none;
+        color: teal;
+        text-shadow: aquamarine 1px 1px 1px;
+    }
+    
+    #welcome #welcome-content #welcome-sub p span {
+        color: red;
+    }
+
+    #welcome #welcome-content #welcome-sub p a:hover {
+        color: black;
+        text-shadow: aquamarine 1px 1px 1px;
+        text-decoration: underline;
+    }
+
+    #social-icons {
+        text-align: center;
+    }
+
+    #social-icons i {
+        display: inline-block;
+        text-shadow: gray 2px 2px 3px;
+        color: teal;
+        font-size: 4em;
+        padding: 1em 1em;
+    }
+
+    #social-icons i:hover {
+        opacity: .7;
+        transform: scale(1.1);
+    }
+
+/*Footer_Styles*/
+    footer {
+        display: inline-block;
+        text-align: center;
+        border-top: 1px solid lightgray;
+        box-shadow: gray 0px 1px 5px;
+        width: 100%;
+        height: 8em;
+    }
+
+    footer i {
+        color: gray;
+        font-size: 1.5em;
+        padding: 1em .5em .5em .5em;
+    }
+    
+    footer span img {
+        width: 1em;
+        padding-left: .4em;
+    }
+
+    footer span {
+        padding: .5em;
+    }
+
+    footer img {
+        width: 4em;
+    }

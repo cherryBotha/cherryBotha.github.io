@@ -1,4 +1,4 @@
-/*Universal_styles*/
+/*universal*/
 body{
 	font-family: Open Sans Condensed;
 	margin: 0 auto;
@@ -16,36 +16,51 @@ h1 {
 	clear: both;
 }
 
-/*Main_container_styles*/
+/*head*/
 #head {
 	position: fixed;
 	background: white;
-	width: 100%;
+	width: 99%;
 	padding: 1em 1em;
 	border-bottom: 2px solid darkgoldenrod;
 	margin-top: -8em;
-	z-index: 1;
+	z-index: 16;
 }
+
 #head #logo{
 	width: 13em;
-	padding-left: 1.5em 1em 1em 1em;
-}
-
-#head i {
-	font-size: 1.7em;
+	padding: 0em 1.5em;
 	float: right;
-	padding: 1.5em 1.2em;
-	color: black;
-	text-shadow: 2px 2px 2px gray;
 }
 
-#head i:hover {
-	transition-duration: 400ms;
-	color: rgb(61,60,60);
-	transform: scale(1.3);
+#head nav li {
+	list-style: none;
 }
 
+#head nav li a {
+	position: absolute;
+	top: 1.1em;
+	left: 1em;
+    padding: 13px 25px;
+    border-radius: 3px;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #4a4a4a;
+    text-shadow: 2px 2px 2px grey;
+    text-decoration: none;
+    border: 1px solid #b1b1b1;
+    background-color: lightgray;
+}
+
+#head nav li a:hover {
+	transition-duration: 1s;
+	background-color: #4a4a4a;
+	color: #b1b1b1;
+}
+
+/*sub-header*/
 #sub-header {
+
 	width: 100%;
 	margin-top: 8em;
 	margin-bottom: 16em;
@@ -62,11 +77,35 @@ h1 {
 }
 
 #sub-header article #welcome-text {
+	z-index:2;	
 	position: absolute;
-	bottom: 30%;
-    left: 34%;
+	top: 15%;
+    left: 0;
 	background: rgba(0,0,0,.75);
 	padding: 2em 2em;
 	color: white;
 	box-shadow :2px 2px 3px black;
+	width: 95%;
+	text-align:center;
 }
+
+#sub-header article #welcome-text p a {
+	padding: 0 .5em 0 .5em;
+	border-left: 2px solid white;
+}
+
+#sub-header article #welcome-text p .about {
+	color: Darkgoldenrod;
+}
+
+#sub-header article #welcome-text p .project {
+	color: gold;
+}
+
+#sub-header article #welcome-text p .blog {
+	color: goldenrod;
+	border-right: 2px solid white;
+}
+
+
+
