@@ -1,0 +1,98 @@
+/*Universal_Styles*/
+    body {
+        font-family: 'Cabin', sans-serif;
+        margin: auto;
+    }
+
+    h1, h2, h3 {
+       font-family: 'Caveat', cursive; 
+    }
+    
+    h1 {
+     font-size: 3em;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+/*Main_Styles*/
+    main {
+        width: 100%;
+        padding-top: 6.9em;
+    }
+
+    #welcome {
+        width: 100%;
+    }
+
+    #welcome #welcome-content {
+        display: grid;
+        justify-content: center;
+        background-image: url("../pictures/background/dandelion-3.png");
+        width: 100%;
+        height: 21.8em;
+    }
+
+    #welcome #welcome-content #welcome-sub {
+        z-index: 1;
+        display: grid;
+        align-self: center;
+        text-align: center;
+        background: gainsboro;
+        opacity: .8;
+        width: 90%;
+        color: black;
+        padding: 1.5em 1em;
+        box-shadow: gray 1px 1px 2px, 
+                    gray -1px -1px 2px;
+        text-shadow: dimgray 1px 1px 1px;
+        border-radius: 2px;
+    }
+
+    #welcome #welcome-content #welcome-sub p a {
+        text-decoration: none;
+        color: teal;
+        text-shadow: aquamarine 1px 1px 1px;
+    }
+    
+    #welcome #welcome-content #welcome-sub p span {
+        color: red;
+    }
+
+    #welcome #welcome-content #welcome-sub p a:hover {
+        color: black;
+        text-shadow: aquamarine 1px 1px 1px;
+        text-decoration: underline;
+    }
+
+    #social-icons {
+        text-align: center;
+    }
+
+    #social-icons i {
+        display: inline-block;
+        text-shadow: gray 2px 2px 3px;
+        color: teal;
+        font-size: 4em;
+        padding: 1em 1em;
+    }
+
+    #social-icons i:hover {
+        opacity: .7;
+        transform: scale(1.1);
+    }
+
+/*Media_querys*/
+@media only screen and (max-width: 430px) {
+    #social-icons i {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #welcome {
+        margin-top: -.5em;
+    }
+
+}
