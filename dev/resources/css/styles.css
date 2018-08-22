@@ -1,29 +1,13 @@
-/*Universal_Styles*/
-    body {
-        font-family: 'Cabin', sans-serif;
-        margin: auto;
-    }
-
-    h1, h2, h3 {
-       font-family: 'Caveat', cursive; 
-    }
-    
-    h1 {
-     font-size: 3em;
-    }
-
-    .clearfix {
-        clear: both;
-    }
-
 /*Main_Styles*/
     main {
-        width: 100%;
-        padding-top: 6.9em;
+        width: 97%;
+        padding: 6.9em .5em 0 .5em;
+        margin-bottom: 1em;
     }
 
     #welcome {
         width: 100%;
+        margin-top: 2.5em;
     }
 
     #welcome #welcome-content {
@@ -66,23 +50,6 @@
         color: black;
         text-shadow: violet 1px 1px 1px;
         text-decoration: underline;
-    }
-
-    #social-icons {
-        text-align: center;
-    }
-
-    #social-icons i {
-        display: inline-block;
-        text-shadow: gray 2px 2px 3px;
-        color: #800b44;
-        font-size: 4em;
-        padding: 1em 1em;
-    }
-
-    #social-icons i:hover {
-        opacity: .7;
-        transform: scale(1.1);
     }
 
 /*Media_querys*/
