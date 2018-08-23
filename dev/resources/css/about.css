@@ -10,30 +10,37 @@ article #about_container h1 {
     font-size: 3em;
 }
 
-
-article #about_img {
+article #about_container #about_img {
     border: 3.5px solid #800b44;
     border-radius: 3px;
     box-shadow: 3px 3px 5px darkgray;
     float: left;
+    width: 25%; 
 }
 
-article .about_text {
-    width: 67%;
+article #about_container .about_text {
+    width: 70%;
     float: right;
 }
 
-article .about_text a {
+article #about_container .about_text a {
     text-decoration: none;
     color: #800b44;
     font-style:italic;
 }
 
-article .about_text a:hover {
+article #about_container .about_text a:hover {
     text-decoration: underline;
 }
 
-article .about_text #who_am_i {
+article #about_container .about_text #who_am_i {
     background: white;
     padding: .5em .5em;
+}
+
+/*Media_Queries*/
+@media only screen and (max-width: 430px) {
+    #about_container {
+       float: none;
+    }
 }

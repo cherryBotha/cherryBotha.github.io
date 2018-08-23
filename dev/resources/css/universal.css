@@ -21,7 +21,7 @@
 /*Header_Styles*/
     header {
         z-index: 10;
-        position: absolute;
+        position: fixed;
         width: 100%;
         background: white;
         border-bottom: 1px solid lightgray;
@@ -118,21 +118,19 @@
 
 /*Footer_Styles*/
     footer {
-        display: inline-block;
         text-align: center;
         border-top: 1px solid lightgray;
         box-shadow: darkseagreen 0px 1px 5px;
-        margin: 4em 0 0 0;
-        padding: 1em 1em;
-        width: 97.5%;
-        height: 4em;
+        margin-top: 4em;
+        padding: 1em 0;
+        width: 100%;
         background: white;
     }
 
     footer i {
         color: gray;
         font-size: 1.5em;
-        padding: .5em .5em .5em .5em;
+        padding: .5em .5em;
     }
 
 footer i:hover {
