@@ -16,16 +16,12 @@ h1 {
 }
 
 p {
-    position: absolute;
-    top: 600px;
     font-size: 2em;
     text-align: center;
     padding: 1em 1em;
 }
 
 blockquote {
-    position: absolute;
-    top: 800px;
     font-size: 2em;
     padding: 0 2em;
 }
@@ -39,7 +35,7 @@ span {
     height: 180px;
     border-radius: 50%;
     position: absolute;
-    top: -50px;
+    top: 410px;
     left: 300px;
     color: black;
     box-shadow: 150px 240px 0 0 currentColor,
