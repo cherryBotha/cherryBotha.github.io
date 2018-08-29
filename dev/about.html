@@ -12,12 +12,24 @@
 	<title> AB | About</title>     
 </head>
 <body>
-    <header>
+      <header id="laptop_header">
         <nav>
-            <a href="index.html"><img id="logo" src="resources/pictures/icons_and_logos/logonew.jpg" alt="Logo"></a>
+            <a href="#"><img id="logo" src="resources/pictures/icons_and_logos/logonew.jpg" alt="Logo"></a>
+            <div id="navbar">
+                <span><a href="#">About</a></span>
+                <span><a href="#">Blog</a></span>
+                <span><a href="#">Projects</a></span>
+                <span><a href="#">More</a></span>
+            </div>
+        </nav>
+    </header>
+    <div class="clearfix"></div>
+    <header id="mobile_header">
+        <nav>
+            <img id="logo" src="resources/pictures/icons_and_logos/logonew.jpg" alt="Logo">
             <ul id="menu">
-                <li>
-                    <a href="#" id="menu-btn">Menu<span></span></a>
+               <li>
+                   <a href="#" id="menu-btn">Menu<span></span></a>
                     <div id="menu-content">
                         <div id="menu-sub">
                             <ul>
@@ -28,7 +40,7 @@
                                 <li><a href="#"><s>CV</s></a></li>
                             </ul>
                         </div>
-                    </div>
+                   </div>
                 </li>
             </ul>
         </nav>
