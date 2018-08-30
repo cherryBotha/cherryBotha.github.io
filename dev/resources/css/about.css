@@ -1,32 +1,31 @@
-/*Main_Styles*/
 main {
-    width: 97%;
     padding: 6.9em 1em 0 1em;
 }
 
-/*About_Styles*/
-article #about_container h1 {
+h1 {
     text-align: center;
-    font-size: 3em;
-}
+} 
 
+/*Article_styles*/
 article #about_container #about_img {
-    border: 3.5px solid #800b44;
-    border-radius: 3px;
+    border: 3.3px solid #800b44;
+    border-radius: 2px;
     box-shadow: 3px 3px 5px darkgray;
+    margin: 1em 1em;
+    padding: .1em .1em;
     float: left;
-    width: 25%; 
+    width: 25%;
 }
 
 article #about_container .about_text {
-    width: 70%;
     float: right;
+    width: 69%;
 }
 
 article #about_container .about_text a {
     text-decoration: none;
     color: #800b44;
-    font-style:italic;
+    font-style: italic;
 }
 
 article #about_container .about_text a:hover {
@@ -35,12 +34,16 @@ article #about_container .about_text a:hover {
 
 article #about_container .about_text #who_am_i {
     background: white;
-    padding: .5em .5em;
+    padding: .1em .5em;
 }
 
 /*Media_Queries*/
 @media only screen and (max-width: 430px) {
-    #about_container {
-       float: none;
+    article #about_container #about_img {
+        width: 40%;
+        margin-left: 6.5em;
+    }
+    article #about_container .about_text {
+        width: 100%;
     }
 }
