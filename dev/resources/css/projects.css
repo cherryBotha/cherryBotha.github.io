@@ -24,7 +24,7 @@ main .page_head a:hover {
 }
 
 main .page_head {
-    border-bottom: 3px solid ghostwhite;
+    border-bottom: 3px solid white;
     padding-bottom: 1em;
     line-height: 25px;
     text-align: center;

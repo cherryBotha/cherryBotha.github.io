@@ -16,7 +16,7 @@ main .page_head h1, main .page_head {
 main .page_head {
     padding: 0 1em;
     padding-bottom: 1em;
-    border-bottom: 3px solid ghostwhite;
+    border-bottom: 3px solid white;
     line-height: 25px;
 }
 
