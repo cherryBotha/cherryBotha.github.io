@@ -1,0 +1,28 @@
+/* Header_Resets*/
+header {
+    margin-top: -8em;
+}
+
+/* Main_Styles */
+main {
+    margin-top: 8em;
+}
+
+/* Page_Head */
+main .page_head h1, main .page_head {
+    text-align: center;
+}
+
+main .page_head {
+    padding: 0 1em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid ghostwhite;
+    line-height: 25px;
+}
+
+/* Blog_Links */
+main .blog_links h1 {
+    text-align: center;
+    padding: 3em 1em 2em 1em;
+    
+}

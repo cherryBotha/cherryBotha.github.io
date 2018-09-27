@@ -2,7 +2,7 @@
 <html>
 <head>
    	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="viewport" content="width=device-width" initial-scale="1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -12,40 +12,17 @@
 	<title> AB | About</title>     
 </head>
 <body>
-      <header id="laptop_header">
-        <nav>
-            <a href="index.html"><img id="logo" src="resources/pictures/icons_and_logos/logonew.jpg" alt="Logo"></a>
-            <div id="navbar">
-                <span><a href="#">About</a></span>
-                <span><a href="#">Blog</a></span>
-                <span><a href="#">Projects</a></span>
-                <span><a href="#">More</a></span>
-            </div>
-        </nav>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="resources/pictures/icons_and_logos/logonew.jpg" alt="Logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="media.html">Media</a></li>
+        </ul>
     </header>
-    <div class="clearfix"></div>
-    <header id="mobile_header">
-        <nav>
-            <a href="home.html"><img id="logo" src="resources/pictures/icons_and_logos/logonew.jpg" alt="Logo"></a>
-            <ul id="menu">
-               <li>
-                   <a href="#" id="menu-btn">Menu<span></span></a>
-                    <div id="menu-content">
-                        <div id="menu-sub">
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#"><s>Animations</s></a></li>
-                                <li><a href="#"><s>CV</s></a></li>
-                            </ul>
-                        </div>
-                   </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="clearfix"></div>
     <main>
         <article>
             <div id="about_container">
@@ -57,12 +34,12 @@
                     </p>
                     <div id="who_am_i"><h2>Who am I</h2>
                     <p>
-                        Firstly, I'm a Christian and proud to be one, also I'm an introvert as most poeple might even say, I'm an "extroverted intovert", but I won't let that define me, yes, I'm quite at times, espcialy when I meet new people, when I'm in a group of people or a conversation where I'm quite most of the time it's not that I find the conversation boring, I'm just listening and taking in what is being said, then considering what to say in return.<br> I am who God made me to be, God made me who I am for a reason, He gave me specific gifts, talents and a specific personality for a reason, He also gave you specific gifts, talents with a specific personality, we just need to learn embrace it and be proud of who we are. God made each one of us uniqe, He set us apart from others, He made us to stand out from the rest.<br>
+                        Firstly, I'm a Christian and proud to be one, also I'm an introvert as some poeple might even say, I'm an "extroverted intovert", but I won't let that define me, yes, I'm quite at times, especially when I meet new people, when I'm in a group of people or a conversation where I'm quite most of the time it's not that I find the conversation or the people boring, I'm just listening and taking in what is being said, then considering what to say in return.<br> I am who God made me to be, God made me who I am for a reason, He gave me specific gifts, talents and a specific personality for a reason, He also gave you specific gifts, talents with a specific personality, we just need to learn to embrace it and be proud of who we are. God made each one of us uniqe, He set us apart from others, He made us to stand out from the rest.<br>
                         <blockquote><srtong><em>"Teach me to do Your will, for you are my God, may Your spirit lead me on level ground"</em></srtong> - Psalm 143:10</blockquote>
                     </div></p>
                     <h2>My hobbies</h2>
                     <p>
-                        When I'm not learning about HTML, CSS and other programming languages or busy with my other studies, I like to play guitar, by which I am actually teaching myself. I'm also teaching myself to speak Italian, it's really fun and exisiting learning a new lanuage. And finaly I'm trying learn some SASL(South African Sign Language), that is quite challengeing to learn, if I do say so myself, but I love it... Plus I'm building some fictional websites just for fun, to test or improve my coding skills. And my most favorite of all is reading books writen by Karen Kingbury, New York's number one author, I would definitly recommend reading some of her books. For me personally I love learning new things every day, growing my knowlege on my favorite topics. Life is to short just sit around and do nothing.
+                        When I'm not learning about HTML, CSS and other programming languages or busy with my other studies, I like to play guitar, by which I am actually teaching myself. I'm also teaching myself to speak Italian, it's really fun and exciting learning a new lanuage. And finaly I'm trying learn some SASL(South African Sign Language), that is quite challengeing to learn, if I do say so myself, but I love it... Plus I'm building some fictional websites just for fun, to test or improve my coding skills and knowledge. And my most favorite of all is reading books writen by <a href="https://www.karenkingsbury.com/home" target="_blank">Karen Kingbury</a>, New York's number one author, I would definitly recommend reading her books, her books have really changed my life forever. For me personally I love learning new things every day, growing my knowlege on my favorite topics. Life is to short just sit around and do nothing.
                     </p>
                     </div>
                 </div>
@@ -73,22 +50,22 @@
                 <ul>
                     <li>Difficult roads often lead to beautiful destinations.</li>
                     <li>If it was easy anyone can do it, and you're not just anyone.</li>
-                    <li>After failing to climb everest a great man said, I will come again and conquer you, because as a mountain you cannot grow, but as a human, I can grow....</li>
+                    <li>After failing to climb Everest a great man said, "I will come again and conquer you, because as a mountain you cannot grow, but as a human, I can grow...."</li>
                     <li>Let your smile change the world, but don't let the world, change your smile.</li>
                     <li>Be our own kind of beautiful.</li>
-                    <li>Only those I really love and love me, will ever know the real me.</li>
+                    <li>Only those I really love and who love me, will ever know the real me.</li>
                     <li>It always seems impossible until it's done.</li>
                     <li>I have this theory that if one person goes out of their way to show compashion can start a chain reaction.</li>
                 </ul>   
             </div>
         </article>
     </main>
-     <footer>
-        <span>copyright © 2018</span>
+    <footer>
+        <span>copyright© 2018</span>
         <span>Powered by Github<img src="resources/pictures/icons_and_logos/githublogo.png" alt="Github Logo"></span><br>
-         <a id="facebook" href="https://www.facebook.com/anuscke.botha" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <!--<a id="facebook" href="https://www.facebook.com/anuscke.botha" target="_blank"><i class="fab fa-facebook-square"></i></a>
         <a id="insta" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a id="twitter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a id="twitter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>-->
     </footer>
 </body>
 </html>

@@ -1,0 +1,72 @@
+/* Header_And_Footer_Resets*/
+header {
+    margin-top: -8em;
+}
+
+/* Main_Styles */
+main {
+    margin-top: 8em;
+    padding: 0 1em;
+}
+
+/* Project_Head_styles */
+main .page_head h1, main .page_head p {
+    text-align: center;
+}
+
+main .page_head a {
+    text-decoration: none;
+    color: #800b44;
+}
+
+main .page_head a:hover {
+    text-decoration: underline;
+}
+
+main .page_head {
+    border-bottom: 3px solid ghostwhite;
+    padding-bottom: 1em;
+    line-height: 25px;
+    text-align: center;
+}
+
+main .page_head li {
+    display: inline-block;
+    list-style: none;
+}
+
+main .page_head li a {
+    color: black;
+    font-family: caveat;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+main .page_head li a:hover {
+    color: #800b44;
+    text-shadow: 1px 1px 1px black;
+}
+/* Khan_Academy_And_Codecademy_Styles */
+.khan-academy li a, .codecademy li a, .my_projects li {
+    text-decoration: none;
+    color: #800b44;
+    font-style: italic;
+    line-height: 35px;
+}
+
+.khan-academy, .codecademy, .my_projects {
+    height: 15em;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+    background: rgba(230, 230, 230, .7);
+}
+
+.my_projects h3 {
+    text-align: center;
+    font-family: caveat;
+}
+
+.khan-academy li a:hover, .codecademy li a:hover {
+    text-shadow: 1px 1px 1px black;
+}
