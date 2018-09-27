@@ -47,10 +47,6 @@ main {
     text-shadow: grey 1px 1px 1px;
 }
 
-#welcome_container #welcome_content #welcome_sub p span {
-    color: red;
-}
-
 #welcome_container #welcome_content #welcome_sub p a:hover {
     color: black;
     text-shadow: violet 1px 1px 1px;
