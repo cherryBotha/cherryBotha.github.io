@@ -1,172 +1,49 @@
-/*Universal Style Rules*/
-html {
-	font-size: 18px;
+main {
+    padding: 6.9em 1em 0 1em;
 }
 
-body {
-	background-color: white;
-	background-size: cover;
-	color: teal;
-	font-family: 'Quicksand', sans-serif;
+h1 {
+    text-align: center;
+} 
+
+/*Article_styles*/
+article #about_container #about_img {
+    border: 3.3px solid #800b44;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px darkgray;
+    margin: 1em 1em;
+    padding: .1em .1em;
+    float: left;
+    width: 25%;
 }
 
-.content {
-	padding-top: 5rem;
-	margin-bottom: 10rem;
+article #about_container .about_text {
+    float: right;
+    width: 69%;
 }
 
-/*Head Nav Section Style Rules*/
-nav {
-	width: 100%;
-	height: 4rem;
-	background-color: mintcream;
-	border-bottom: 3px solid antiquewhite;	
+article #about_container .about_text a {
+    text-decoration: none;
+    color: #800b44;
+    font-style: italic;
 }
 
-/*Nav Section Style Rules*/
-nav a{
-	display: inline-flex;
-	align-items: center;
-	text-decoration: none;
-	font-weight: bold;
-	color: teal;
-	font-size: 1rem;
-	margin-top: 1.4rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	opacity: 0.6;
+article #about_container .about_text a:hover {
+    text-decoration: underline;
 }
 
-/*Nav Hover Style Rules*/
-nav a:hover {
-	opacity: 1;
-	transition-property: transform, opacity;
-	transition-duration: 400ms;
-	transform: transition(10);
-	transform: scale(1.3);
-	color: dimgray;
-	text-decoration: none;
+article #about_container .about_text #who_am_i {
+    background: white;
+    padding: .1em .5em;
 }
 
-/*Logo Style Rules*/
-nav .logo {
-	margin-top: -1rem;
-	margin-right: .10rem;
-	width: 5rem;
+/*Media_Queries*/
+@media only screen and (max-width: 430px) {
+    article #about_container #about_img {
+        width: 40%;
+        margin-left: 6.5em;
+    }
+    article #about_container .about_text {
+        width: 100%;
+    }
 }
-
-/*drop down*/
-.dropdown {
-	display: inline-flex;
-	justify-content: space-between;
-	width: 100%;
-	height: 4.5rem;
-	background-color: mintcream;
-	border-bottom: 2px solid antiquewhite;	
-}
-
-.dropdown .btn {
-	margin-top: -1.70rem;
-	background-color: mintcream;
-}
-
-.dropdown i {
-	height: 3rem;
-	width: 2rem;
-	text-align: center;
-	margin-left: -.20rem;
-}
-
-.dropdown-menu li a{
-	font-family: 'Quicksand', sans-serif;
-}
-
-.dropdown .logo {
-	margin-top: -1rem;
-	margin-right: .10rem;
-	width: 5rem;
-}
-
-/*About Section Style Rules*/
-.about .box{
-	display: flex;
-}
-
-#yt {
-	color: mediumslateblue;
-}
-
-.about_mobile h1, .about h1 {
-	text-align: center;
-	font-size: 2rem;
-	font-weight: bold;
-	margin-bottom: 1rem;
-	margin-top: 2rem;
-	padding: .20rem .20rem;
-	color: teal;
-	width: 100%;
-}
-
-.about_mobile img, .about img {
-	
-	border: 4px burlywood solid;
-	border-radius: 10px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 17rem;
-	width: 14rem;;
-}
-
-.about img {
-	margin-top: 2.5rem;
-}
-
-.about_mobile .abouts, .about .abouts {
-	padding: 0.50rem 0.50rem;
-	margin-top: 2.2rem;
-	width: 100%;
-}
-
-.about_mobile, .abouts p, li {
-	font-size: 1rem;
-}
-
-.about_mobile span, .abouts span {
-	font-size: 1.30rem;
-	font-weight: bold;
-}	
-
-/*Footer Section Style Rules*/
-i{
-	margin-top: 1rem;
-	color: dimgray;
-	padding: 1rem 1rem;
-	margin-left: 1rem;
-	opacity: 0.6;
-	transition: transform 500ms, opacity 500ms;
-	
- }
- 
- i:hover {
-	opacity: 1;
-	color: dimgray;	
-	transition-property: transform, opacity;
-	transition-duration: 500ms, 500ms;
-	transform: transition(10);
-	transform: scale(1.3);
- }
-
-
-
-footer {
-	width:100%;
-	height: 5rem;
-	color: teal;
-	font-style: italic;
-	border-top: 1px solid teal;
-	text-align: center;
-	padding-top: 1.5rem;
-	padding-bottom: 1rem;
-}
-
