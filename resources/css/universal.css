@@ -23,16 +23,12 @@ a {
   color: #000;
 }
 
-.active {
-    background: ghostwhite;
-}
-
 /* header */
 .header {
   font-family: 'Caveat', cursive;  
   font-weight: bold;
   background-color: #fff;
-
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -48,7 +44,7 @@ a {
 
 .header li a {
   display: block;
-  padding: 28px 27px;
+  padding: 28px 30px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
   font-size: 1.2em;
