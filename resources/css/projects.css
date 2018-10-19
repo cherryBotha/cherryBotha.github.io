@@ -48,18 +48,30 @@ main .page_head li a:hover {
     text-shadow: 1px 1px 1px black;
 }
 /* Khan_Academy_And_Codecademy_Styles */
-.khan-academy li a, .codecademy li a, .my_projects li {
+.khan-academy figure a , .codecademy li a, .my_projects li {
     text-decoration: none;
     color: #800b44;
     font-style: italic;
     line-height: 35px;
 }
 
-.khan-academy, .codecademy, .my_projects {
+.codecademy, .my_projects {
     height: 15em;
     padding: 10px 10px;
     border-bottom: 2px solid white;
     background: rgba(230, 230, 230, .7);
+}
+
+#khan-academy {
+    border-bottom: 2px solid white;
+    background: rgba(230, 230, 230, .7);
+    padding: 10px 10px;
+}
+
+.khan-academy {
+    padding: auto;
+    margin:auto;
+    text-align: center;
 }
 
 .my_projects h3 {
@@ -67,6 +79,24 @@ main .page_head li a:hover {
     font-family: caveat;
 }
 
-.khan-academy li a:hover, .codecademy li a:hover {
+.khan-academy figure {
+    display: inline-grid;
+    width:10.5em;
+}
+
+.khan-academy figure img {
+    box-shadow: 3px 3px 2px 1px gray;
+    opacity: .6;
+    border-radius: 50%;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.khan-academy figure img:hover { 
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+.khan-academy figure a span:hover, .codecademy li a:hover {
     text-shadow: 1px 1px 1px black;
 }
